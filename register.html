@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Registrasi Nia Melinda</title>
+        <link rel="stylesheet" type="text/css" href="login.css">
+    </head>
+    <body>
+        <div class="login-container">
+            <h2>Registrasi</h2>
+            <input type="text" placeholder="Masukan email">
+            <input type="password" placeholder="Masukan password">
+            <input type="password" placeholder="Masukan ulang password">
+            <button onclick="submitForm()">Daftar</button>
+            <div class="signup">
+                Sudah punya akun? <a href="login.html">Login</a>
+            </div>
+        </div>
+        <script>
+            function submitForm() {
+                alert("Registrasi telah berhasil!");
+                window.location.href = "login.html";
+            }
+        </script>
+    </body>
+</html>

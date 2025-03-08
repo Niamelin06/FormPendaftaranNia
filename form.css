@@ -1,0 +1,26 @@
+body {
+    background-color: #f0f0f0;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 12px #aaa;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.form-box {
+    width: 90%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #ffffff;
+}

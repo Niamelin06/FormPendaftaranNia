@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nia Melinda</title>
+        <link rel="stylesheet" type="text/css" href="form.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2><center>Form Pendaftaran Mahasiswa</center></h2>
+            <div class="form-box">
+                <font face="Times New Roman" size="4">
+                    <table border="0">
+                        <tr>
+                            <td><b>Nama Lengkap</b></td>
+                            <td>:</td>
+                            <td><input type="tel" name="nama" size="20"></td>
+                        </tr>
+                        <tr>
+                            <td><b>Email</b></td>
+                            <td>:</td>
+                            <td><input type="email" name="email"></td>
+                        </tr>
+                        <tr>
+                            <td><b>No HP</b></td>
+                            <td>:</td>
+                            <td><input type="text" name="no_hp"></td>
+                        </tr>
+                        <tr>
+                            <td><b>Jenis Kelamin</b></td>
+                            <td>:</td>
+                            <td>
+                                <input type="radio" name="opsi" value="Laki-laki">Laki-laki
+                                <input type="radio" name="opsi" value="Perempuan">Perempuan
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Agama</b></td>
+                            <td>:</td>
+                            <td>
+                                <input type="checkbox" name="Agama" value="Islam">Islam
+                                <input type="checkbox" name="Agama" value="Kristen">Kristen
+                                <input type="checkbox" name="Agama" value="Hindu">Hindu
+                                <input type="checkbox" name="Agama" value="Budha">Budha
+                                <input type="checkbox" name="Agama" value="Lainnya">Lainnya
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Alamat</b></td>
+                            <td>:</td>
+                            <td><textarea cols="22" rows="3"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><b>Tempat Lahir</b></td>
+                            <td>:</td>
+                            <td><input type="text" name="tempat" size="20"></td>
+                        </tr>
+                        <tr>
+                            <td><b>Tanggal Lahir</b></td>
+                            <td>:</td>
+                            <td><input type="date" name="tanggal_lahir"></td>
+                        </tr>
+                        <tr>
+                            <td><b>Jurusan</b></td>
+                            <td>:</td>
+                            <td>
+                                <select>
+                                    <option value="-">Pilih Jurusan</option>
+                                    <option value="RPL">RPL</option>
+                                    <option value="PGPAUD">PGPAUD</option>
+                                    <option value="PGSD">PGSD</option>
+                                    <option value="TEKKOM">TEKKOM</option>
+                                    <option value="MULTIMEDIA">MULTIMEDIA</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Foto</b></td>
+                            <td>:</td>
+                            <td><input type="file" name="foto"></td>
+                        </tr>
+                    </table>
+                    <tr>
+                        <td colspan="3">
+                            <button onclick="submitForm()">Simpan</button>
+                        </td>
+                    </tr>
+                </font>
+            </div>
+        </div>
+        <script>
+            function submitForm() {
+                alert("Data anda berhasil disimpan");
+                window.location.href = "hasil.html";
+            }
+        </script>
+    </body>
+</html>
